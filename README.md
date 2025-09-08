@@ -1,31 +1,31 @@
 # PDF Merger App
 
-A simple Python application that allows users to merge multiple PDF files into a single document.  
-The app provides an easy-to-use interface where you can select PDF files from your file explorer, arrange them in the desired order, and export them as one merged PDF.
+A simple Python application to merge multiple PDF files into a single PDF.  
+The app allows you to select PDFs, reorder them, remove any unwanted files, and save the merged PDF to your computer.
 
-## ✨ Features
+## Features
 
-- Select multiple PDF files via file explorer
-- Merge them into one PDF in the order you choose
-- Save the merged PDF to your computer
-- Simple and intuitive interface
+- Select multiple PDF files via a file dialog
+- View the selected PDFs in a list
+- Reorder files using Up/Down buttons
+- Remove files from the list if needed
+- Merge PDFs in the chosen order
+- Save the merged PDF anywhere on your computer
 
-## 🛠️ Built With
+## Requirements
 
 - Python
-- PyPDF2 or pypdf (for PDF merging)
+- pypdf
+- Tkinter (comes with Python by default)
 
-## 🚀 Future Improvements
+## Installation
 
-- Drag-and-drop support
-- Preview selected PDFs
-- Option to reorder files before merging
-- Dark mode interface
-
-## 📦 Installation
-
-Clone the repo:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pdf-merger-app.git (TBD)
+git clone https://github.com/cl4414/pdf-merger-app.git
+
+cd pdf-merger-app
+pip install pypdf
+python app.py
 ```
