@@ -13,7 +13,6 @@ The app provides an easy-to-use interface where you can select PDF files from yo
 ## 🛠️ Built With
 
 - Python
-- Tkinter (for GUI)
 - PyPDF2 or pypdf (for PDF merging)
 
 ## 🚀 Future Improvements
@@ -29,6 +28,4 @@ Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/pdf-merger-app.git (TBD)
-
-Connection tested
 ```
